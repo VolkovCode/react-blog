@@ -4,10 +4,6 @@ import {useNavigate} from 'react-router-dom'
 
 const PostItem = (props) => {
   const navigate = useNavigate()
-  console.log(navigate)
-  function handleClick(postId) {
-    navigate(`/posts/${postId}`)
-  }
   return (
     
     <div className='post'>

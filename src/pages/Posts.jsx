@@ -45,7 +45,7 @@ function Posts() {
     setPage(page)
     fetchPosts(limit, page)
   }
-
+  console.log(sortedAndSeaarchPosts)
   return (
     <>
       <div className="App">
